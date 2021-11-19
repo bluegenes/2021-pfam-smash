@@ -7,7 +7,7 @@ database_dir: /home/ntpierce/2021-pfam-shared-kmers/outputs/pfam_index
 databases:
   - pfam_clans_k10_scaled1.sbt.zip 
   - pfam_clans_k10_scaled10.sbt.zip
-  - pfam_clanss_k10_scaled100.sbt.zip
+  - pfam_clans_k10_scaled100.sbt.zip
 
 read_info:
     raw:
