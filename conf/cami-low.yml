@@ -1,0 +1,20 @@
+output_dir: output.cami-low
+basename: cami-low
+
+scaled: [1,10,100]
+
+database_dir: /home/ntpierce/2021-pfam-shared-kmers/outputs/pfam_index
+databases:
+  - pfam_clans_k10_scaled1.sbt.zip 
+  - pfam_clans_k10_scaled10.sbt.zip
+  - pfam_clanss_k10_scaled100.sbt.zip
+
+read_info:
+    raw:
+      - inputs/cami_low/RL_S001__insert_270.fq.gz
+    trim:
+      - inputs/cami_low/CAMI_low_R1.fastp.fq.gz
+      - inputs/cami_low/CAMI_low_R2.fastp.fq.gz
+    abundtrim:
+      - inputs/cami_low/CAMI_low.abundtrim.fq.gz
+
